@@ -1,4 +1,4 @@
-# StraightUp
+# Beehaviour
 A project made by
 
 - Francesca Binda
