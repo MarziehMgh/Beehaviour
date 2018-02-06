@@ -10,7 +10,7 @@ During the Creative Coding course at Politecnico di Milano
 ## 1.Idea
 
 ### Bees...behaviour
-The honey bee dance language is a dance through which bees communicate to each other where the food sources are. It is considered by many as one of the most intriguing communication systems in the animal world. This natural phenomenon is not widely known, but it is very interesting since it is based on precise rules. Bees perform different types of dance depending on the distance of the food from the hive. The dances analyzed in our project are Round dance, Sickle dance and Waggle dance.
+The honey bee dance language is a dance through which bees communicate with each other about where the food sources are. It is considered by many as one of the most intriguing communication systems in the animal world. This natural phenomenon is not widely known, but it is very interesting since it is based on precise rules. Bees perform different types of dance depending on the distance of the food from the hive. The dances analyzed in our project are round dance, sickle dance and waggle dance.
 
 In our project, the user has to choose a food source by clicking on it. This action will allow the user to learn information about that specific food source. Furthermore, depending on the position of the latter, the user will be asked to perform one of the three dances mentioned above. 
 
@@ -32,11 +32,21 @@ Solution: We created much many functions that perform much smaller tasks, and th
 ### Use of the draw
 ```
 Problem: 
-Ww had to find a way to use the draw function in a smart way. We understood that we tended to put everything that we needed in the draw, but that made it a really complex and unreadable function.
+We had to find a way to use the draw function in a smart way. We understood that we tended to put everything that we needed in the draw, but that made it a really complex and unreadable function.
 ```
 ```
 Solution: 
 We used the draw in the easiest way possible. We only used to draw to call a variety of other display functions, which are separated one from the other to make the more eady to read.
+```
+
+### Click indicator
+```
+Problem: 
+We had to find a way to make it clear to the user that he could only click on certain kinds of trees and flowers, but we also wanted the user to "explore" the landscape without knowing by the start we to look at.
+```
+```
+Solution: 
+We decided that to understand where to click, the user had to move the mouse around. We thought that a function that makes the clickable object bigger by moving the mouse over it was a simple but effective way to suggest where to click without ruining the visualization of the landscape. 
 ```
 
 
