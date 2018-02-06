@@ -1,11 +1,12 @@
 # Beehaviour
+
+![beeheader.gif](beeheader.gif)
+
 A project made by
 
 - Francesca Binda
 - Valentina Caiola
 - Margherita Motta
-
-![beeheader.gif](beeheader.gif)
 
 During the Creative Coding course at Politecnico di Milano
 
