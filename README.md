@@ -5,7 +5,7 @@ A project made by
 - Valentina Caiola
 - Margherita Motta
 
-![header.gif](header.gif)
+![head.gif](head.gif)
 
 During the Creative Coding course at Politecnico di Milano
 
