@@ -1,6 +1,6 @@
 # Beehaviour
+![headerbee.gif](headerbee.gif)
 
-![beeheader.gif](beeheader.gif)
 A project made by
 
 - Francesca Binda
