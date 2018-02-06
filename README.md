@@ -38,7 +38,6 @@ Ww had to find a way to use the draw function in a smart way. We understood that
 Solution: 
 We used the draw in the easiest way possible. We only used to draw to call a variety of other display functions, which are separated one from the other to make the more eady to read.
 ```
-```
 
 
 
