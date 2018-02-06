@@ -1,4 +1,11 @@
 # StraightUp
+A project made by
+
+- Francesca Binda
+- Valentina Caiola
+- Margherita Motta
+
+During the Creative Coding course at Politecnico di Milano
 
 ## 1.Idea
 
