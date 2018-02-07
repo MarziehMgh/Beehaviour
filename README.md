@@ -55,8 +55,7 @@ We created a boolean called isModalActive and a variable called modalStatus. By 
         }
      }
    }
-    
-// 
+
     function drawModal1() {
     plants[activePlantIndex].showModal1();
     if (plants[activePlantIndex].showPoints) {
