@@ -25,31 +25,63 @@ Our project is designed to be used only on computers, in particular it can only 
 ## 3.Problems & Solutions
 
 ### Performances
-```
+
 Problem: At first, we created a few but very complex functions that were enough to perform the tasks that we needed, but the code was very slow.
-```
-```
+
 Solution: We created much many functions that perform much smaller tasks, and this makes the code less heavy and much more fast.
-```
-### Use of the draw
-```
+
+
+### Modal window
+
 Problem: 
-We had to find a way to use the draw function in a smart way. We understood that we tended to put everything that we needed in the draw, but that made it a really complex and unreadable function.
-```
-```
+At the beggining, we found it difficoult to use a modal on top of the current page, so we initially thought of making more than one page.
+
 Solution: 
-We used the draw in the easiest way possible. We only used to draw to call a variety of other display functions, which are separated one from the other to make the more eady to read.
+We created a boolean called isModalActive and a variable called modalStatus. By performing different actions, like clicking on a pollen sources, the value of the modalStatus variable changes. We then created if and else conditions that calls different function depending on the modalStatus. These functions actually describe the way in which objects must be displayed
+
+```function draw(){
+   if (isModalActive()) {
+        drawOverlay();
+        if (modalStatus == 0) {
+            drawModal0();
+            buttondance.display();
+            buttonclose.display();
+        } else if (modalStatus == 1) {
+            drawModal1();
+            buttonclose.display();
+        } else if (modalStatus == 2) {
+            drawModal2();
+            buttonclose.display();
+        }
+     }
+   }
+    
+// 
+    function drawModal1() {
+    plants[activePlantIndex].showModal1();
+    if (plants[activePlantIndex].showPoints) {
+        drawPoints();
+    }
+}
 ```
 
+
+### Use of the draw
+
+Problem: 
+We had to find a way to use the draw function in a smart way. We understood that we tended to put everything that we needed in the draw, but that made it a really complex and unreadable function.
+
+Solution: 
+We used the draw in the easiest way possible. We only used to draw to call a variety of other display functions, which are separated one from the other to make the more eady to read.
+
 ### Click indicator
-```
+
 Problem: 
 We had to find a way to make it clear to the user that he could only click on certain kinds of trees and flowers, but we also wanted the user to "explore" the landscape without knowing by the start we to look at.
-```
-```
+
 Solution: 
 We decided that to understand where to click, the user had to move the mouse around. We thought that a function that makes the clickable object bigger by moving the mouse over it was a simple but effective way to suggest where to click without ruining the visualization of the landscape. 
-```
+
 
 
 
